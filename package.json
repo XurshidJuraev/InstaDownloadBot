@@ -1,0 +1,21 @@
+{
+  "name": "tiktokdownloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+     "start":"node main.js",
+     "dev": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "node-telegram-bot-api": "^0.58.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
