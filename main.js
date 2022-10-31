@@ -12,7 +12,7 @@ bot.on('message', async(message)=>{
         const chatId=message.chat.id
         const name=message.from.first_name 
         if(message.text=='/start'){
-            await bot.sendMessage(chatId,`Assalomu alaykum ${name} botimizga xush kelibsiz. Botga biror bir  \n Instagram video link yuboring.  Men video tarzda qaytarib beraman`)
+            await bot.sendMessage(chatId,`Assalomu alaykum ${name} botimizga xush kelibsiz. Botga biror bir  \n Instagram video link yuboring.  Men video tarzda qaytarib beraman \n \n \n Bu bot @Xurshid_Dev tomonidan ishlab chiqilgan`)
         }
     
         const video_link =await tiktok_downloader(message.text)

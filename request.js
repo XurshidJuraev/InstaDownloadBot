@@ -11,12 +11,6 @@ const axios = require("axios");
               'X-RapidAPI-Host': 'instagram-media-downloader.p.rapidapi.com'
             }
           };
-          
-        //   axios.request(options).then(function (response) {
-        //       console.log(response.data.video);
-        //   }).catch(function (error) {
-        //       console.error(error);
-        //   });
     
           const response =await axios.request(options)
             
